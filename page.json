@@ -1,0 +1,142 @@
+{
+  "brand": {
+    "name": "MotoMax",
+    "accent": "#E63946"
+  },
+  "layout": "Simple",
+  "sections": [
+    {
+      "type": "Hero",
+      "variant": "centered",
+      "headline": "Find Your Perfect Motorbike Today",
+      "subheadline": "Browse our wide selection of new and used motorbikes at unbeatable prices. Fast delivery and expert support included.",
+      "primaryCta": {
+        "label": "Shop Motorbikes",
+        "href": "/shop"
+      },
+      "image": {
+        "kind": "url",
+        "name": "motorbike-hero",
+        "url": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d"
+      }
+    },
+    {
+      "type": "Features",
+      "items": [
+        {
+          "title": "Wide Selection of Motorbikes",
+          "desc": "Browse a diverse range of new and used motorbikes to find the perfect ride for your needs and budget."
+        },
+        {
+          "title": "Expert Advice & Support",
+          "desc": "Our knowledgeable team is here to help you choose the right motorbike and answer all your questions."
+        },
+        {
+          "title": "Flexible Financing Options",
+          "desc": "Get on the road faster with easy and affordable financing plans tailored to your situation."
+        },
+        {
+          "title": "Quality Assurance",
+          "desc": "Every motorbike is thoroughly inspected and serviced to ensure top performance and safety."
+        }
+      ]
+    },
+    {
+      "type": "Pricing",
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "$99",
+          "period": "per month",
+          "features": [
+            "Access to all available motorbikes",
+            "Basic maintenance support",
+            "Standard customer service"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$149",
+          "period": "per month",
+          "features": [
+            "All Standard features",
+            "Priority booking",
+            "Extended warranty",
+            "24/7 roadside assistance"
+          ]
+        },
+        {
+          "name": "Elite",
+          "price": "$199",
+          "period": "per month",
+          "features": [
+            "All Premium features",
+            "Personalized bike recommendations",
+            "Exclusive member events",
+            "Free annual service"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Testimonials",
+      "items": [
+        {
+          "name": "Alex P.",
+          "quote": "Buying my bike here was quick and easy. Great service and unbeatable prices!"
+        },
+        {
+          "name": "Maria S.",
+          "quote": "The staff helped me find the perfect motorbike for my needs. Highly recommended!"
+        },
+        {
+          "name": "James T.",
+          "quote": "Excellent selection and smooth purchase process. I’ll definitely come back for my next bike."
+        }
+      ]
+    },
+    {
+      "type": "FAQ",
+      "items": [
+        {
+          "q": "What types of motorbikes do you sell?",
+          "a": "We offer a wide range of motorbikes including sport, cruiser, touring, and off-road models from top brands."
+        },
+        {
+          "q": "Do you offer financing options?",
+          "a": "Yes, we provide flexible financing plans to help you purchase your dream motorbike with ease."
+        },
+        {
+          "q": "Can I trade in my old motorbike?",
+          "a": "Absolutely! We accept trade-ins and offer competitive valuations for your current motorbike."
+        },
+        {
+          "q": "Do you provide after-sales service and maintenance?",
+          "a": "Yes, our expert team offers comprehensive after-sales service, maintenance, and repairs for all motorbike models."
+        },
+        {
+          "q": "How can I schedule a test ride?",
+          "a": "You can easily book a test ride by contacting us through our website or calling our showroom directly."
+        }
+      ]
+    },
+    {
+      "type": "CTA",
+      "headline": "Ready to Ride? Discover Your Perfect Motorbike Today!",
+      "cta": {
+        "label": "Browse Motorbikes",
+        "href": "/motorbikes"
+      }
+    },
+    {
+      "type": "LeadCapture",
+      "headline": "Get Exclusive Motorbike Deals!",
+      "placeholder": "Enter your email address",
+      "button": "Sign Up Now"
+    },
+    {
+      "type": "Footer",
+      "note": "© 2024 Your Motorbike Shop. All rights reserved. Ride safe and contact us for your next adventure!"
+    }
+  ]
+}
