@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Tailwind CSS (CDN) keeps styles simple; remove later if you want a proper build pipeline) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>AI Site</title>
+    <style>html,body,#root{height:100%}</style>
+    <script>
+      // Very lightweight runtime error surface to avoid silent white screens in prod
+      window.addEventListener('error', e => {
+        const m = (e && e.message) ? e.message : 'Unknown error';
+        console.warn('Runtime error:', m);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
